@@ -6,4 +6,5 @@ echo "$this_file"
 echo "$this_dir"
 docs_folder="/home/main/.steam/steam/steamapps/compatdata/1716740/pfx/drive_c/users/steamuser/Documents/My Games/Starfield"
 
-bash "$this_dir"/enable-archive-invalidation.sh "$docs_folder"
+# bash "$this_dir"/enable-archive-invalidation.sh "$docs_folder"
+bash "$this_dir"/disable-motd.sh "$docs_folder"
