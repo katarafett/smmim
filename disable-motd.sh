@@ -5,6 +5,7 @@ starfield_custom="StarfieldCustom.ini"
 
 if ! [ -e "$docs_folder" ]; then
     echo "$docs_folder not found"
+    exit
 fi
 
 cd "$docs_folder" || exit
